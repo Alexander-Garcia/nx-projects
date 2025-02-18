@@ -1,5 +1,16 @@
 # Projects
 
+A collection of projects to learn and hold several frameworks in one place while also learning about Nx / monorepos
+- APIs
+  - [x] Express
+  - [ ] Nest
+- Frontend
+  - [ ] React
+  - [ ] Svelte
+- ORM
+  - [x] Prisma
+
+
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
 ✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
@@ -67,6 +78,8 @@ Nx Console is an editor extension that enriches your developer experience. It le
 [Install Nx Console &raquo;](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 
 ## Useful links
+
+- [Source for Prisma setup](https://github.com/nrwl/nx-recipes/tree/main/nestjs-prisma#nx--nestjs--prisma)
 
 Learn more:
 
