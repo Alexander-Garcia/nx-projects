@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts "
+  },
   "private": true,
   "dependencies": {
     "@prisma/client": "^6.4.0",
@@ -13,7 +16,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
-    "@nx-tools/nx-prisma": "^6.5.0",
     "@nx/esbuild": "20.4.4",
     "@nx/eslint": "20.4.4",
     "@nx/eslint-plugin": "20.4.4",
