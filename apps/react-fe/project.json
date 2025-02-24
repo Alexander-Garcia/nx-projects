@@ -1,0 +1,9 @@
+{
+  "name": "react-fe",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/react-fe/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project react-fe --web",
+  "targets": {}
+}
