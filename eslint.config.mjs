@@ -1,5 +1,6 @@
 import nx from '@nx/eslint-plugin';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
+import eslintPluginReactHooks from 'eslint-plugin-react-hooks'; // https://github.com/facebook/react/issues/28313#issuecomment-2580001921
 
 export default [
   ...nx.configs['flat/base'],
@@ -28,6 +29,9 @@ export default [
     },
   },
   {
+    plugins: {
+      'react-hooks': eslintPluginReactHooks,
+    },
     files: [
       '**/*.ts',
       '**/*.tsx',
@@ -39,6 +43,6 @@ export default [
       '**/*.mjs',
     ],
     // Override or add rules here
-    rules: {},
+    rules: { ...eslintPluginReactHooks.configs.recommended.rules },
   },
 ];
